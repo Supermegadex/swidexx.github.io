@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700');
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav {
+  position: fixed;
+  width: 100vw;
+  height: 5vh;
+  background-color: #1D2123;
+  color: #FFFFFF;
+}
+
+#nav-logo {
+  width: 4vh;
+  padding: 5px;
+  float: left;
+}
+
+#nav-links {
+  float: right;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding-top: 1.3vh;
+  padding-right: 3vh;
+  font-weight: 300;
+  font-size: 2vh;
+  transition: 0.5s;
+}
+
+#nav-links:hover {
+  color: #D8D8D8;
+}
+
+#splash {
+  background-color: #1D2123;
+  height: 100vh;
+}
+
+#splash-img {
+  padding-top: 30vh;
+  width: 50%;
+}
+
+.white-section {
+  background-color: #FFFFFF;
+  height: auto;
+}
+
+.black-section {
+  background-color: #1D2123;
+  height: auto;
+}
+
+.black-header {
+  color: #1D2123;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 8vh;
+}
+
+.black-paragraph {
+  color: #1D2123;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3vh;
+}
+
+.white-header {
+  color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 8vh;
+}
+
+.white-paragraph {
+  color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3vh;
+}
+
+#content {
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  padding: 10vh;
+}
+
+.subheader {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5vh;
+  color: #FFFFFF;
+}
