@@ -6,6 +6,23 @@
 
 a {
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.black-link {
+  color: #1D2123;
+}
+
+.black-link:hover {
+  color: #505B60;
+}
+
+.white-link {
+  color: white;
+}
+
+.white-link:hover {
+  color: #D8D8D8;
 }
 
 #nav {
@@ -50,11 +67,13 @@ a {
 .white-section {
   background-color: #FFFFFF;
   height: auto;
+  text-decoration: none;
 }
 
 .black-section {
   background-color: #1D2123;
   height: auto;
+  text-decoration: none;
 }
 
 .black-header {
@@ -62,6 +81,7 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 8vh;
+  text-decoration: none;
 }
 
 .black-paragraph {
@@ -69,6 +89,7 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 3vh;
+  text-decoration: none;
 }
 
 .white-header {
@@ -76,6 +97,7 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 8vh;
+  text-decoration: none;
 }
 
 .white-paragraph {
@@ -83,6 +105,7 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 3vh;
+  text-decoration: none;
 }
 
 #content {
@@ -90,6 +113,7 @@ a {
   margin: 0 auto;
   height: auto;
   padding: 10vh;
+  text-decoration: none;
 }
 
 .subheader {
