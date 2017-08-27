@@ -1,79 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Swidex</title>
-	<link rel="stylesheet" type="text/css" href="css/theme.css">
-	<script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/scrolling-nav.js"></script>
-  <script src="js/script.js"></script>
-</head>
-<body>
-	<div id="nav">
-		<a class="page-scroll" href="#splash"><img id="nav-logo" src="img/logo.png"></a>
-		<a class="page-scroll" href="#downloads" id="nav-links">downloads</a>
-		<a class="page-scroll" href="#projects" id="nav-links">projects</a>
-		<a class="page-scroll" href="#aboutme" id="nav-links">about me</a>
-	</div>
-	<div id="splash">
-		<center>
-			<img id="splash-img" src="img/splash.png">
+	<head>
+		<title>Swidex</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/jquery.easing.min.js"></script>
+	  <script src="js/scrolling-nav.js"></script>
+	</head>
+	<body>
+		<div id="nav">
+			<div class="margin">
+				<div id="nav-title">
+					<font color="black">BEN</font>HALL
+				</div>
+				<div id="nav-links">
+					<a>About</a>
+					<a>Downloads</a>
+					<a>Blog</a>
+				</div>
+			</div>
+		</div>
+		<div id="splash">
+			<div class="margin">
+				<div id="splash-title">
+					BLOG
+				</div>
+				<div id="splash-subtitle">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum auctor molestie. Morbi consectetur venenatis turpis et auctor. Phasellus sagittis enim vitae finibus vulputate.
+				</div>
+			</div>
+		</div>
+		<a class="page-scroll" id="splash-button" href="#content">
 			<br><br>
-			<p class="subheader">some subheader.</p>
-			<br>
-			<a class="page-scroll subheader" href="#aboutme">⌄</a>
-		</center>
-	</div>
-	<div id="aboutme" class="white-section">
+			<img src="img/down.png" height="25" width="40">
+		</a>
 		<div id="content">
-			<center>
-				<p class="black-header">about me</p>
-				<br>
-				<p class="black-paragraph">I'm am a Semi-Expert in the Linux Distros, Ubuntu, Debian, and Arch. From the basics like firewalls to the complicated vulnerabilities like IPv6 configuration. I also run a home lab where I host a web server, along with a several VMs running in VMware's ESXi..</p>
-			</center>
+			<div class="margin">
+				<div id="blog">
+					<div class="cell">
+						<div class="cell-header">
+							Lorem ipsum
+						</div>
+						<div class="cell-paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum auctor molestie. Morbi consectetur venenatis turpis et auctor. Phasellus sagittis enim vitae finibus vulputate.
+						</div>
+					</div>
+					<div class="padding">
+					</div>
+					<div class="cell">
+						<div class="cell-header">
+							Lorem ipsum
+						</div>
+						<div class="cell-paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum auctor molestie. Morbi consectetur venenatis turpis et auctor. Phasellus sagittis enim vitae finibus vulputate.
+						</div>
+					</div>
+					<div class="padding">
+					</div>
+					<div class="cell">
+						<div class="cell-header">
+							Lorem ipsum
+						</div>
+						<div class="cell-paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum auctor molestie. Morbi consectetur venenatis turpis et auctor. Phasellus sagittis enim vitae finibus vulputate.
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-	<div id="projects" class="black-section">
-		<div id="content">
-			<center>
-			<p class="white-header">projects</p><br>
-			<table id="projects-table">
-				<tr>
-					<td>RGB - Love2D Bullet Hell Game</td>
-					<td>Ubuntu Hardening Script</td>
-					<td>My Website</td>
-				</tr>
-				<tr>
-					<td>Working on Life/Death system.</td>
-					<td>Currently researching DNS security hardening for ubuntu.</td>
-					<td>Typing this message!</td>
-				</tr>
-				<tr>
-					<td>download</td>
-					<td>download</td>
-					<td>download</td>
-				</tr>
-			</table>
-			</center>
-		</div>
-	</div>
-	<div id="downloads" class="white-section">
-		<div id="content">
-			<center>
-				<p class="black-header">downloads</p>
-				<br>
-				<p class="black-paragraph">All of my software can be downloaded from my <a class="black-link" href="https://github.com/swidexx">GitHub</a> (including source and release downloads)</p>
-			</center>
-		</div>
-	</div>
-	<div id="footer">
-		<div id="footer-content">
-			<a href="https://www.twitter.com/swidexx"><img id="footer-icon" src="img/twitter.png"></a>
-			<a href="https://www.github.com/swidexx"><img id="footer-icon" src="img/github.png"></a>
-			Copyright
-			<script> document.write((new Date()).getFullYear()) </script>©
-		</div>
-	</div>
-</body>
+	</body>
 </html>

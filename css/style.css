@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,900');
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.margin {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+#nav {
+  width: 100vw;
+  height: 50px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 5px black;
+  position: fixed;
+  z-index: 1;
+}
+
+#nav-title {
+  font-family: 'Heebo', sans-serif;
+  color: #00bbff;
+  padding-top: 3px;
+  font-size: 2em;
+  font-weight: 900;
+  float: left;
+}
+
+#nav-links {
+  font-weight: 400;
+  font-size: 1em;
+  float: right;
+  padding-top: 15px;
+}
+
+#nav-links a {
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: 0.5s;
+}
+
+#nav-links a:hover {
+  color: #999999;
+  cursor: pointer;
+}
+
+#content {
+  background-color: #ededed;
+  color: #ffffff;
+  width: 99.1vw;
+  padding-bottom: 500px;
+  box-shadow: 0px 0px 1px black;
+}
+
+#splash {
+  background-color: #00bbff;
+  padding-top: 50px;
+  padding-bottom: 140px;
+}
+
+#splash-title {
+  color: white;
+  font-size: 5em;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 900;
+  padding-top: 100px;
+}
+
+#splash-subtitle {
+  color: white;
+  font-size: 2em;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
+#splash-button {
+  position: absolute;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px grey;
+  top: 460px;
+  transition: 1s;
+  text-align: center;
+  cursor: pointer;
+}
+
+#splash-button:hover {
+  box-shadow: 0px 0px 10px grey;
+}
+
+#blog {
+  padding-top: 100px;
+}
+
+.cell {
+  width: 30%;
+  height: 450px;
+  margin: 0 auto;
+  display:inline-block;
+  background-color: white;
+  transition: 1s;
+  box-shadow: 0px 0px 1px grey;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.cell:hover {
+  box-shadow: 0px 0px 5px grey;
+}
+
+.padding {
+  width: 4%;
+  background-color: transparent;
+  display:inline-block;
+}
+
+.cell-header {
+  color: #00bbff;
+  font-size: 3em;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 900;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.cell-paragraph {
+  color: #00bbff;
+  font-size: 1.5em;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+  padding: 20px 50px 0px 50px;
+}
