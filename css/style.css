@@ -50,7 +50,7 @@
 #content {
   background-color: #ededed;
   color: #ffffff;
-  width: 99.1vw;
+  width: 100%;
   padding-bottom: 500px;
   box-shadow: 0px 0px 1px black;
 }
@@ -88,7 +88,7 @@
   height: 100px;
   border: none;
   border-radius: 50px;
-  box-shadow: 0px 0px 5px grey;
+  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
   top: 460px;
   transition: 1s;
   text-align: center;
@@ -96,7 +96,7 @@
 }
 
 #splash-button:hover {
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
 }
 
 #blog {
@@ -104,26 +104,25 @@
 }
 
 .cell {
-  width: 30%;
-  height: 450px;
   margin: 0 auto;
-  display:inline-block;
+  padding-bottom: 50px;
+  display: inline-block;
   background-color: white;
   transition: 1s;
-  box-shadow: 0px 0px 1px grey;
+  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
   cursor: pointer;
   border: none;
   border-radius: 5px;
 }
 
-.cell:hover {
-  box-shadow: 0px 0px 5px grey;
+.cell:hover {  
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
 }
 
 .padding {
   width: 4%;
   background-color: transparent;
-  display:inline-block;
+  display: inline-block;
 }
 
 .cell-header {
